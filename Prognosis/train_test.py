@@ -163,9 +163,11 @@ def test(model, data, device = torch.device("cuda:0" if torch.cuda.is_available(
         censor_all = np.concatenate((censor_all, censor.detach().cpu().numpy().reshape(-1)))   # Logging Information
         survtime_all = np.concatenate((survtime_all, survtime.detach().cpu().numpy().reshape(-1)))   # Logging Information
 
-    ################################################### 
-    # ==== Measuring Test Loss, C-Index, P-Value ==== #
-    ###################################################
+
+
+
+    # Measuring Test Loss, C-Index, P-Value
+
     loss_test /= len(test_loader.dataset)
     cindex_test = CIndex_lifeline(risk_pred_all, censor_all, survtime_all)
     pvalue_test = cox_log_rank(risk_pred_all, censor_all, survtime_all)
