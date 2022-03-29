@@ -99,9 +99,9 @@ To explore the features networks focus on, run ```./Discovery/attribution.ipynb`
 Please report all issues on the public forum.
 
 
-## License
-This code is made available under the GPLv3 License and is available for non-commercial academic purposes. 
-
+## License, Usages, and Acknowledgements
+-This code is made available under the GPLv3 License and is available for non-commercial academic purposes. 
+-Code base structure was inspired by [Pathomic Fusion](https://github.com/mahmoodlab/PathomicFusion).
 
 ## Reference
 If you find our work useful in your research or if you use parts of this code please consider citing our paper.
