@@ -25,17 +25,17 @@
       
       *Note:  `pip install` command is required for Pytorch installation.*
       
-2.To try out the Python code and set up environment, please activate the `pathfinder` environment first:
+  2.To try out the Python code and set up environment, please activate the `pathfinder` environment first:
 
-```
-$ conda activate pathfinder
-$ cd PathFinder/
-```
+   ``` shell
+   $ conda activate pathfinder
+   $ cd PathFinder/
+   ```
 
-3.For ease of use, you can just set up the environment and run the following:
-```
-$ pip install -r requirements.txt
-```
+  3.For ease of use, you can just set up the environment and run the following:
+   ``` shell
+   $ pip install -r requirements.txt
+   ```
 
 ### Data Preparation
 * WSIs and clinical information of patients are used in this project. Raw WSIs are stored as ```.svs```, ```.mrxs``` or ```.tiff``` files. Clinical information are stored as ```.csv``` files. 
