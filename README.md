@@ -26,7 +26,7 @@
    ```
    $ conda create -n pathfinder python=3.7.9
    $ conda activate pathfinder
-   $ pip install torch==1.8.0+cu111 torchvision==0.9.0+cu111 torchaudio==0.8.0 -f https://download.pytorch.org/whl/torch_stable.html
+   $ pip install torch==1.8.0+cu110 torchvision==0.8.2+cu110 torchaudio==0.8.0 -f https://download.pytorch.org/whl/torch_stable.html
    ```
       *Note:  `pip install` command is required for Pytorch installation.*
       
