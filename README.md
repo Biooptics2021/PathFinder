@@ -6,6 +6,7 @@
 * **WSI_decoupling**: *Get the macro mode (3D-numpy-array of multi-class tissue probability heatmaps) of WSIs.*
 * **Prognosis**: *Train prognostic deep neural networks (MacroNet, MicroNet and M2MNet) for cancer prognosis.*
 * **Discovery**: *Use attribution methods to find important features for further survival analyses and biomarker discovery.*
+* **Data**: *WSI and clinical information source data.*
 
 ## Pre-requisites:
 
