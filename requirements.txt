@@ -1,1 +1,14 @@
-life
+albumentations==0.5.2
+captum==0.2.0
+h5py==3.2.1
+lifelines==0.25.11
+matplotlib==3.3.3
+numpy==1.19.2
+opencv_python==4.5.1.48
+pandas==1.2.2
+Pillow==7.2.0
+scikit_image==0.18.1
+scikit_learn==1.0.2s
+scipy==1.4.1
+seaborn==0.9.0
+tqdm==4.57.0
