@@ -3,7 +3,7 @@
 
 ## Contents
 - [Directory Structure](#directory-structure)
-- [Pre-requisites](#pre-requisites)
+- [Pre-requisites and Environment](#pre-requisites-and-environment)
 - [Data Preparation](#data-preparation)
 - [Training and Evaluation](#training-and-evaluation)
 - [Biomarker Discovery](#biomarker-discovery)
@@ -16,12 +16,12 @@
 * **Discovery**: *Use attribution methods to find important features for further survival analyses and biomarker discovery.*
 * **Data**: *WSI and clinical information source data.*
 
-## Pre-requisites:
+## Pre-requisites and Environment
 
 * Linux (Tested on Ubuntu 18.04)
 * NVIDIA GPU (Tested on Nvidia GeForce RTX 3090 x 4)
 * Python (3.7.9),PyTorch (version 1.8.0), Lifelines (version 0.25.11), NumPy (version 1.19.2), Pandas (version 1.2.2), Albumentations (version 0.5.2), OpenCV (version 4.5.1), Pillow (version 7.2.0), OpenSlide (version 1.1.2), Captum (version 0.2.0), SciPy (version 1.4.1), Seaborn (version 0.9.0), Matplotlib (version 3.1.1).
-
+### Environment Configuration
 1. Create a virtual environment and install PyTorch. In the 3rd step, please select the correct Pytorch version that matches your CUDA version from [https://pytorch.org/get-started/previous-versions/](https://pytorch.org/get-started/previous-versions/).
    ```
    $ conda create -n pathfinder python=3.7.9
