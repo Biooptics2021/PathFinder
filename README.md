@@ -1,4 +1,4 @@
-# PathFinder: AI enabled pathological biomarker finder
+# PathFinder: AI bsaed pathological biomarker finder
 © This code is made available for non-commercial academic purposes. 
 
 
