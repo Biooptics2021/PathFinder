@@ -1,5 +1,5 @@
 # PathFinder: AI bsaed pathological biomarker finder
-<center><img src="https://github.com/Biooptics2021/PathFinder/blob/main/Docs/figure1.png?raw=true" width="900" align="middle" /></center>
+<img src="https://github.com/Biooptics2021/PathFinder/blob/main/Docs/figure1.png?raw=true" width="700" align="middle" />
 
 ### [Project page](https://github.com/Biooptics2021/PathFinder/)
 © This code is made available for non-commercial academic purposes. 
