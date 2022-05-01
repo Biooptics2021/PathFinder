@@ -11,9 +11,9 @@ from albumentations.pytorch import ToTensorV2
 INFO_PATH = ''#clinical info
 HEATMAP_PATH = ''#heatmaps .npy file
 
-########################
+##################################
 #His-seg Heatmap Loader(MacroNet)
-########################
+##################################
 class SegHeatmapDatasetLoader(Dataset):
     def __init__(self, seg_filepaths, transform=None):
         super(SegHeatmapDatasetLoader, self).__init__()
@@ -53,9 +53,9 @@ class SegHeatmapDatasetLoader(Dataset):
         return seg, T, O, seg_filepath
 
 
-########################
+##################################
 #Tumour patches Loader(MicroNet)
-########################
+##################################
 class PatchesImageDatasetLoader(Dataset):
     def __init__(self, patches_filepaths, transform=None):
         super(PatchesImageDatasetLoader, self).__init__()
@@ -111,9 +111,9 @@ class PatchesImageDatasetLoader(Dataset):
         return Imgs, T, O, patches_paths
 
 
-########################
+##################################
 #Fusion dataloader(M2MNet)
-########################
+##################################
 class FusionDatasetLoader(Dataset):
 
     def __init__(self, patches_filepaths, transform_patch=None, transform_seg=None):
