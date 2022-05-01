@@ -7,7 +7,6 @@
 - [Data Preparation](#data-preparation)
 - [Training and Evaluation](#training-and-evaluation)
 - [Biomarker Discovery](#biomarker-discovery)
-- [Characterization and Verification](#characterization-and-verification)
 - [Acknowledgements](#acknowledgements)
 
 ## Directory Structure
@@ -124,7 +123,6 @@ To train and evaluate MicroNet and M2MNet, import corresponding data loader and 
 ## Biomarker Discovery
 To explore the features networks focus on, run ```./Discovery/attribution.ipynb```.
 
-## Characterization and Verification
 
 ## Acknowledgements
 - Prognosis training and test code base structure was inspired by [Pathomic Fusion](https://github.com/mahmoodlab/PathomicFusion).
