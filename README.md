@@ -1,13 +1,21 @@
 # PathFinder: AI bsaed pathological biomarker finder
+<center><img src="https://github.com/Biooptics2021/PathFinder/blob/main/Docs/figure1.png?raw=true" width="900" align="middle" /></center>
+
+### [Project page](https://github.com/Biooptics2021/PathFinder/)
 © This code is made available for non-commercial academic purposes. 
 
 ## Contents
+- [Overview](#overview)
 - [Directory Structure](#directory-structure)
 - [Pre-requisites and Environment](#pre-requisites-and-environment)
 - [Data Preparation](#data-preparation)
 - [Training and Evaluation](#training-and-evaluation)
 - [Biomarker Discovery](#biomarker-discovery)
 - [Acknowledgements](#acknowledgements)
+
+## Overview
+<center><img src="https://github.com/Biooptics2021/PathFinder/blob/main/Docs/Figure1-framework.png?raw=true" width="900" align="middle" /></center>
+
 
 ## Directory Structure
 * **WSI_decoupling**: *Get the macro mode (3D-numpy-array of multi-class tissue probability heatmaps) of WSIs.*
