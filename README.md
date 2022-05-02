@@ -14,7 +14,8 @@
 - [Acknowledgements](#acknowledgements)
 
 ## Overview
-Framework of PathFinder
+### Framework of PathFinder
+For a detailed model introduction, please refer to our paper.
 <center><img src="https://github.com/Biooptics2021/PathFinder/blob/main/Docs/Figure1-framework.png?raw=true" width="900" align="middle" /></center>
 
 
@@ -52,7 +53,7 @@ PathFinder
           └── segmap
                 └── segmap_example.npy
     └──Data
-          └── source data and clinical information
+          └── WSIs and clinical information
 ```
 
 * **WSI_decoupling**: *Get the macro mode (3D-numpy-array of multi-class tissue probability heatmaps) of WSIs.*
@@ -88,6 +89,8 @@ PathFinder
    ```
 
 ## Data Preparation
+
+### Data Format
 * WSIs and clinical information of patients are used in this project. Raw WSIs are stored as ```.svs```, ```.mrxs``` or ```.tiff``` files. Clinical information are stored as ```.csv``` files. 
 
 ### Generate Macro Mode
@@ -174,14 +177,14 @@ $ cd ./Prognosis
 $ python train_TCGA_CV.py
 ```
 
-### Test on Independent Hospital
+### Independent Hospital Test
 The generalization ability of MacroNet can be tested by calling:
 ``` shell
 $ cd ./Prognosis
 $ python train_TCGA_test_QHCG.py
 ```
 
-### Train and Evaluation on MicroNet and M2MNet
+### Training and Evaluation of MicroNet and M2MNet
 To train and evaluate MicroNet and M2MNet, import corresponding data loader and network architecture in ```./Prognosis/train_test.py```. Data loaders can be found in ```./Prognosis/data_loaders.py```, network architectures can be found in ```./Prognosis/Networks```.
 
 
