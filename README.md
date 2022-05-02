@@ -18,10 +18,45 @@
 
 
 ## Directory Structure
+
+```bash
+PathFinder
+    └──WSI_decoupling
+          ├── decoupling.py
+          ├── inference.py
+          ├── visualization.py
+          └── PaSegNet
+                ├── train.py
+                └── test.py
+    ├── Prognosis
+          ├── data_loaders.py
+          ├── train_TCGA_CV.py
+          ├── train_TCGA_test_QHCG.py
+          ├── train_test.py
+          ├── utils.py
+          ├── Data_prepare
+                ├── cut_heatmap.py
+                └── Generate_prognostic_patches.py
+          └── Networks
+                ├── M2M_network.py
+                ├── Macro_networks.py
+                └── Micro_networks.py
+    └── Discovery
+          ├── data_loaders.py
+          ├── networks.py
+          ├── attribution.ipynb
+          ├── verification.ipynb
+          ├── ckpt
+                └── trained_model.pth
+          └── segmap
+                └── segmap_example.npy
+```
+
 * **WSI_decoupling**: *Get the macro mode (3D-numpy-array of multi-class tissue probability heatmaps) of WSIs.*
 * **Prognosis**: *Train prognostic deep neural networks (MacroNet, MicroNet and M2MNet) for cancer prognosis.*
 * **Discovery**: *Use attribution methods to find important features for further survival analyses and biomarker discovery.*
 * **Data**: *WSI and clinical information source data.*
+
 
 ## Pre-requisites and Environment
 
