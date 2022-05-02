@@ -196,7 +196,7 @@ To train and evaluate MicroNet and M2MNet, import corresponding data loader and 
 * Before you launch the notebooks, please configure an environment following the instruction in [Environment Configuration](#environment-configuration). 
 * Then, you can launch the notebook and find new biomarkers with the inspiration of AI:
 
-<center><img src="https://github.com/Biooptics2021/PathFinder/blob/main/Docs/Figure1-framework.png?raw=true" width="900" align="middle" /></center>
+<center><img src="https://github.com/Biooptics2021/PathFinder/blob/main/Docs/attribution.png?raw=true" width="900" align="middle" /></center>
 
 ### Verification
 Biomarker verification according to REMARK and survival analyses are performed in ```./Discovery/verification.ipynb```
