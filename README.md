@@ -205,6 +205,7 @@ Biomarker verification according to REMARK and survival analyses are performed i
 ## Acknowledgements
 - Prognosis training and test code base structure was inspired by [Pathomic Fusion](https://github.com/mahmoodlab/PathomicFusion).
 - Tumor necrosis distribution score (TND) was inspired by [TILAb-Score](https://github.com/TissueImageAnalytics/TILAb-Score).
+- Readme structure was inspired by [DeepCAD-RT](https://github.com/cabooster/DeepCAD-RT).
 
 ## Reference
 If you find our work useful in your research or if you use parts of this code please consider citing our paper.
