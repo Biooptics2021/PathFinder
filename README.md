@@ -17,7 +17,9 @@
 
 ## Overview
 Tissue biomarkers are crucial for cancer diagnosis, prognosis assessment and treatment planning. However, there are few known biomarkers that are robust enough to show true analytical and clinical value. Deep learning (DL)-based computational pathology can be used as a strategy to predict survival, but the limited interpretability and generalizability prevent acceptance in clinical practice. Here we present an interpretable human-centric DL-guided framework called PathFinder (Pathological-biomarker-finder) that can help pathologists to discover new tissue biomarkers from well-performing DL models. By combining sparse multi-class tissue spatial distribution information of whole slide images with attribution methods, PathFinder can achieve localization, characterization and verification of potential biomarkers, while guaranteeing state-of-the-art prognostic performance. Using PathFinder, we discovered that spatial distribution of necrosis in liver cancer, a long-neglected factor, has a strong relationship with patient prognosis. We therefore proposed two clinically independent indicators, including necrosis area fraction and tumour necrosis distribution, for practical prognosis, and verified their potential in clinical prognosis according to criteria derived from the Reporting Recommendations for Tumor Marker Prognostic Studies. Our work demonstrates a successful example of introducing DL into clinical practice in a knowledge discovery way, and the approach may be adopted in identifying biomarkers in various cancer types and modalities.
-For more details, please see the companion paper where the method first appeared: 
+
+
+For more details, please see our paper: 
 ["*Deep learning supported discovery of biomarkers for clinical prognosis of liver cancer (2023)*"](https://www.nature.com/articles/s42256-023-00635-3).
 
 ### Framework of PathFinder
@@ -211,3 +213,15 @@ Biomarker verification according to REMARK and survival analyses are performed i
 
 ## Reference
 If you find our work useful in your research or if you use parts of this code please consider citing our paper.
+
+- Liang, J., Zhang, W., Yang, J. et al. Deep learning supported discovery of biomarkers for clinical prognosis of liver cancer. Nat Mach Intell (2023). [https://doi.org/10.1038/s42256-023-00635-3](https://doi.org/10.1038/s42256-023-00635-3)
+```
+@article{liang2023deep,
+  title={Deep learning supported discovery of biomarkers for clinical prognosis of liver cancer},
+  author={Liang, Junhao and Zhang, Weisheng and Yang, Jianghui and Wu, Meilong and Dai, Qionghai and Yin, Hongfang and Xiao, Ying and Kong, Lingjie},
+  journal={Nature Machine Intelligence},
+  pages={1--13},
+  year={2023},
+  publisher={Nature Publishing Group UK London}
+}
+```
