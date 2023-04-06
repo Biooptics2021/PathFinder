@@ -1,7 +1,7 @@
 # PathFinder: AI bsaed pathological biomarker finder
 <img src="https://github.com/Biooptics2021/PathFinder/blob/main/Docs/figure1.png?raw=true" width="700">
 
-### [Project page](https://github.com/Biooptics2021/PathFinder/) | [Paper]()
+### [Project page](https://github.com/Biooptics2021/PathFinder/) | [Paper](https://www.nature.com/articles/s42256-023-00635-3)
 **Note:** Try [Quick Discovery](#quick-discovery) to implement PathFinder with the pre-trained network.
 
 © This code is made available for non-commercial academic purposes. 
@@ -16,10 +16,12 @@
 - [Acknowledgements](#acknowledgements)
 
 ## Overview
-### Framework of PathFinder
-For a detailed model introduction, please refer to our paper.
-<center><img src="https://github.com/Biooptics2021/PathFinder/blob/main/Docs/Figure1-framework.png?raw=true" width="900" align="middle" /></center>
+Tissue biomarkers are crucial for cancer diagnosis, prognosis assessment and treatment planning. However, there are few known biomarkers that are robust enough to show true analytical and clinical value. Deep learning (DL)-based computational pathology can be used as a strategy to predict survival, but the limited interpretability and generalizability prevent acceptance in clinical practice. Here we present an interpretable human-centric DL-guided framework called PathFinder (Pathological-biomarker-finder) that can help pathologists to discover new tissue biomarkers from well-performing DL models. By combining sparse multi-class tissue spatial distribution information of whole slide images with attribution methods, PathFinder can achieve localization, characterization and verification of potential biomarkers, while guaranteeing state-of-the-art prognostic performance. Using PathFinder, we discovered that spatial distribution of necrosis in liver cancer, a long-neglected factor, has a strong relationship with patient prognosis. We therefore proposed two clinically independent indicators, including necrosis area fraction and tumour necrosis distribution, for practical prognosis, and verified their potential in clinical prognosis according to criteria derived from the Reporting Recommendations for Tumor Marker Prognostic Studies. Our work demonstrates a successful example of introducing DL into clinical practice in a knowledge discovery way, and the approach may be adopted in identifying biomarkers in various cancer types and modalities.
+For more details, please see the companion paper where the method first appeared: 
+["*Deep learning supported discovery of biomarkers for clinical prognosis of liver cancer (2023)*"](https://www.nature.com/articles/s42256-023-00635-3).
 
+### Framework of PathFinder
+<center><img src="https://github.com/Biooptics2021/PathFinder/blob/main/Docs/Figure1-framework.png?raw=true" width="900" align="middle" /></center>
 
 ## Directory Structure
 
