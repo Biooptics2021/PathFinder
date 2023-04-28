@@ -1,7 +1,7 @@
 # PathFinder: AI bsaed pathological biomarker finder
 <img src="https://github.com/Biooptics2021/PathFinder/blob/main/Docs/figure1.png?raw=true" width="700">
 
-### [Project page](https://github.com/Biooptics2021/PathFinder/) | [Paper](https://www.nature.com/articles/s42256-023-00635-3) | [Research Highlight](https://www.nature.com/articles/s44222-023-00069-x)
+### [Project Page](https://github.com/Biooptics2021/PathFinder/)  |  [Paper](https://www.nature.com/articles/s42256-023-00635-3)  |  [Research Highlight](https://www.nature.com/articles/s44222-023-00069-x)
 **Note:** Try [Quick Discovery](#quick-discovery) to implement PathFinder with the pre-trained network.
 
 © This code is made available for non-commercial academic purposes. 
